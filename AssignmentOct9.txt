@@ -1,0 +1,23 @@
+Question 1. w+ and r+
+Answer1: Both w+ and r+ open the file for reading and writing. 
+The streaming is positioned in the begining of the file.
+In w+ the file is created if it doesnot exist, or else truncated. 
+
+
+Question 2. Can we zip together more than 2 number of list? If yes zip them.
+Answer2: Yes we can zip together more than 2 list togther.
+>>> x= [1,2,3,4,5,6,7]
+>>> y=['a','b','c','d','e','f','g']
+>>> z= ['Apple', 'Banana','Carrot','Orange', 'Ginger','Tomatoes','Potatoes']
+>>> res=zip(x,y)
+>>> res
+[(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e'), (6, 'f'), (7, 'g')]
+>>> res1=zip(x,y,z)
+>>> res1
+[(1, 'a', 'Apple'), (2, 'b', 'Banana'), (3, 'c', 'Carrot'), (4, 'd', 'Orange'), (5, 'e', 'Ginger'), (6, 'f', 'Tomatoes'), (7, 'g', 'Potatoes')]
+>>>
+
+	
+	
+	
+
