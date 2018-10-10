@@ -1,3 +1,3 @@
-def sum(a,b):
-  return (a+b)
-sum(25,35)
+def sum(a,b,c):
+  return (a+b+c)
+sum(25,35,45)
